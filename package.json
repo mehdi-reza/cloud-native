@@ -1,0 +1,21 @@
+{
+  "name": "cloud-native",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "author": "Mehdi Raza",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.810.0",
+    "aws-xray-sdk": "^3.2.0",
+    "ramda": "^0.27.1"
+  },
+  "devDependencies": {
+    "eslint-plugin-jasmine": "^4.1.1",
+    "jasmine": "^3.6.3",
+    "jasmine-pretty-html-reporter": "^0.2.5"
+  }
+}
